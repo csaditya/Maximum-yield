@@ -20,7 +20,7 @@ class Solution {
         while(temp != 0) {
             int index = temp % 613;
             countNumbers[index] += 1;
-            temp = temp/10;
+            temp = temp/613;
         }
         for(int i = 0; i < 613; ++i)
             System.out.print(countNumbers[i]);
